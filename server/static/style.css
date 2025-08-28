@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root
+{
+	--darker: 	#121212;
+	--dark: 	#232323;
+	--green:	#23AA12;
+	--cyan: 	#009eff;
+}
+
+body
+{
+	font-family:	'Poppins', sans-serif;
+	background-color: var(--dark);
+	color: white;
+}
+
+h1
+{
+	font-size: 	24px;
+	text-align:	center;
+}
+
+label
+{
+
+}
+
+.button {
+	background-color: var(--green);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}

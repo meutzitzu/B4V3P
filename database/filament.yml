@@ -1,0 +1,37 @@
+#       Filament state block
+---
+FFF:
+        PLA:
+                Orange:
+                        name: Orange PLA
+                        color: 0xCF5A00
+                        mass: 145       #grams
+                        load: Prusai3Mk2S
+                        supply: 
+                Black:
+                        name: Orange
+                        color: 0x121212
+                        mass: 345       #grams
+                        load: standby   
+                        supply: 
+        ABS:
+                Green:
+                        name: Green
+                        color: 0x121212
+                        mass: 345       #grams
+                        load: standby   
+                        supply: 
+                Gray:
+                        name: Green
+                        color: 0x121212
+                        mass: 345       #grams
+                        load: standby   
+                        supply: 
+        TPU:
+                Orange:
+                        name: Orange
+                        color: 0x121212
+                        mass: 500       #grams
+                        load: standby   
+                        supply: 
+...

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HWRD 3DPrint</title>
+		<link rel="stylesheet" href="../static/style.css">
+		<link rel="icon" type="image/x-icon" href="../static/favicon.ico">
+		<script src="/static/3dprint.js"></script>
+	</head>
+
+	<body>
+		<figure>
+		<img src="{{imagename}}" >
+		<figcaption>{{imagename}}</figcaption>
+		<button class="button" onclick="printPreview()" > START PRINT </button>
+		<a class="button" href="/"> BACK </a>
+		<a class="button" href="/feed"> LIVE FEED </a>
+		<h2> PLEASE NOTE: </h2>
+		<p> The START PRINT button may not work during week-ends and outside the 9-18 (UTC+2) timerange as until we can install a good fire safety system we will not leave the printers running unsupervised. <br> you can see this if the printer screen is off in the LIVE FEED. <br> Thank you for your understanding.</p>
+		<p> LIVE FEED may take up to 16 seconds before enough video has been cached in order to start playback </p>
+		<p> LIVE FEED does not work on chrome as of now. It does, however work on a good browser such as Firefox. (yes, even the Android version of Firefox will work while chrome will not.) </p>
+		</figure>
+	</body>
+</html>

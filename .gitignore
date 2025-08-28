@@ -1,0 +1,6 @@
+# gitignore file
+
+# all blender back-up files
+*.blend1
+
+server/static/Q/
